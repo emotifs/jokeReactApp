@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    height: 100vh;
+    background-size: cover;
+}
+
+.joke-container{
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 15% auto;
+    border-radius: 32px;
+    padding: 40px 20px;
+    box-shadow: 0px 5px 20px 10px #fff;
+}
+
+.joke-container > p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.joke-container > button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.joke-container > button:active{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+@media (max-width: 800px) {
+    .joke-container{
+        margin: 40% auto;
+    }
+}
